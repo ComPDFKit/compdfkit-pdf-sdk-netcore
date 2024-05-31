@@ -5,8 +5,7 @@
 # Related
 
 - [ComPDFKit API Library for .Net](https://github.com/ComPDFKit/compdfkit-api-.net)
-- Download [ComPDFKit PDF SDK for .NET Core](https://www.nuget.org/packages/ComPDFKit.NetCore) in Nuget
-- Download [ComPDFKit PDF SDK for .NETFramework](https://www.nuget.org/packages/ComPDFKit.NetFramework) in Nuget
+- Download [ComPDFKit PDF SDK for .NET Core](https://www.nuget.org/packages/ComPDFKit.NetCore) in Nuget 
 - [How to Build a Windows PDF Viewer or Editor](https://www.compdf.com/blog/build-a-windows-pdf-viewer-or-editor)
 - [Brief Introduction to ComPDFKit for Windows](https://www.compdf.com/blog/compdfkit-for-windows)
 
