@@ -1,0 +1,29 @@
+*** Release Date: Mar 24, 2024 ***
+Version 2.0.0
+- New Features
+1. Added support for document infomation.
+2. Added support for Annotation.
+3. Added support for Security, including encrypt/decrypt, background, bates.
+4. Added support for Interactive Forms.
+5. Added support for HeaderFooter, Bates.
+6. Added support for document compare.
+7. Added support for document conversion.
+8. Added support for page manipulation.
+8. Added support for image extraction.
+9. Added support for url load and stream load.
+10. And more other features.
+
+This is the inaugural release of ComPDFKit PDF SDK for .NET Core, a SDK designed to assist developers in swiftly integrating potent ComPDFKit PDF technology into their applications across iOS, Android, and Windows platforms. ComPDFKit empowers even developers with limited PDF knowledge to swiftly implement a PDF Processor with just a few lines of code. Currently, it is available on iOS, Android, and Windows platforms.
+
+ComPDFKit furnishes a C# API for all the platforms and comprises a key feature component: PDF Core API.
+
+The Core API encompasses all non-viewer functions for ComPDFKit.
+
+Highlights of this version release include:
+
+High-performance PDF libraries for rendering PDF pages, page objects, annotations, and forms sharply, clearly, accurately, and with ease of readability.
+APIs for seamless annotation creation, property access, and modification (including appearance setting and drawing). It facilitates exporting and importing annotations to and from XFDF documents. Supported annotation types include note (text), free text (text box), line, square, circle, highlight, underline, squiggly, strikeout, stamp, and ink (freehand).
+Robust methods for check existing forms, modifying form fields, adding and removing form fields, creating new forms, allowing users to fill in forms, and exporting and importing form data via XFDF files. It provides access to form data and enables setting or retrieving form field values and properties.
+Merge and combine specified page ranges from different PDF files into a single PDF. Additionally, split a PDF into separate PDFs based on page ranges. Developers can merge partial or entire PDF files, extract pages from a PDF to save as a new PDF, and delete specific pages from a PDF file.
+A range of encryption and decryption functions to meet different levels of document security protection. It allows users to implement password encryption, set or modify security permissions associated with a document, and remove encryption from existing PDF documents.
+For additional information, please consult the "developer_guide_dotnet_core.pdf" document located in the same folder as this file.

@@ -1,0 +1,85 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <TargetFrameworks>net7.0;net461</TargetFrameworks>
+    <LangVersion>7.3</LangVersion>
+    <Configurations>Release;Debug</Configurations>
+    <Platforms>AnyCPU;x64</Platforms>
+    <AssemblyName>Samples_ComPDFKit</AssemblyName>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ComPDFKit_Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\compdfkit_windows\ComPDFKit\ComPDFKitCSharp\ComPDFKit.Net.csproj">
+      <Project>{56e518ad-c126-4b48-9a09-0a64c87020e4}</Project>
+      <Name>ComPDFKit.Desk</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\LicenseKey.cs">
+      <Link>LicenseKey.cs</Link>
+    </Compile>
+    <Compile Include="DocumentCompare.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\TestFile\ElectricalDiagram.pdf">
+      <Link>ElectricalDiagram.pdf</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\..\TestFile\ElectricalDiagram_New.pdf">
+      <Link>ElectricalDiagram_New.pdf</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\..\TestFile\Signed.pdf">
+      <Link>Signed.pdf</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\..\TestFile\Text.pdf">
+      <Link>Text.pdf</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="TextChanged.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\license_key_windows.xml">
+      <Link>license_key_windows.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="..\..\..\..\..\..\x64\ComPDFKitNative.dll">
+      <Link>x64\ComPDFKitNative.dll</Link>
+    </Content>
+    <Content Include="ComPDFKit_Logo.ico" />
+  </ItemGroup>
+<<<<<<< Updated upstream
+=======
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+>>>>>>> Stashed changes
+</Project>

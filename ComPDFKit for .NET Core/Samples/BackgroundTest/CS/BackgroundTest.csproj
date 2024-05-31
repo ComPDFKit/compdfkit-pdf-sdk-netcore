@@ -1,0 +1,68 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <TargetFrameworks>net6.0</TargetFrameworks>
+        <LangVersion>7.3</LangVersion>
+        <Configurations>Release;Debug</Configurations>
+        <Platforms>AnyCPU;x64</Platforms>
+      
+      <AssemblyName>Samples_ComPDFKit</AssemblyName>
+      <AssemblyVersion>2.0.0</AssemblyVersion>
+      <AssemblyCompany>PDF Technologies, Inc.</AssemblyCompany>
+      <AssemblyCopyright>Copyright © 2014-2024 PDF Technologies, Inc. All Rights Reserved.</AssemblyCopyright>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <PlatformTarget>AnyCPU</PlatformTarget>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Include="..\..\LicenseKey.cs">
+        <Link>LicenseKey.cs</Link>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+        
+      <Content Include="..\..\TestFile\ColorBackground.pdf">
+        <Link>ColorBackground.pdf</Link>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="..\..\TestFile\CommonFivePage.pdf">
+        <Link>CommonFivePage.pdf</Link>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="..\..\TestFile\ImageBackground.pdf">
+        <Link>ImageBackground.pdf</Link>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="..\..\ComPDFKit_Logo.ico">
+        <Link>ComPDFKit_Logo.ico</Link>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="..\..\license_key_windows.xml">
+        <Link>license_key_windows.xml</Link>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="..\..\..\Lib\ComPDFKitNative.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="..\..\..\Lib\ComPDFKitNative.dylib">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="..\..\..\Lib\ComPDFKitNative.so" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <Reference Include="ComPDFKit.NET">
+        <HintPath>..\..\..\Lib\net6.0\ComPDFKit.NET.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Magick.NET-Q8-AnyCPU" Version="13.8.0" />
+    </ItemGroup>
+
+</Project>
