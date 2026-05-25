@@ -1,59 +1,52 @@
 # ComPDF SDK for .NET Core
 
-As part of the KDAN ecosystem, ComPDF SDK for .NET Core offers comprehensive functions for quickly generating, viewing, annotating, editing, and signing PDFs. It is feature-rich and battle-tested, making PDF files process and manipulation easier and faster.
+As part of the KDAN ecosystem, ComPDF SDK for .NET Core offers comprehensive functions for quickly generating, viewing, annotating, editing, signing PDFs, and more. It is feature-rich and battle-tested, making PDF files process and manipulation easier and faster.
 
 If you find this library helpful, please consider giving us a ⭐ **Star** on GitHub! Have feedback or questions? Join the conversation in our [Discussions](https://github.com/orgs/ComPDFKit/discussions).
 
 **Why ComPDF SDK for .NET Core?**
 
 * **Easy to Integrate:** Integrate PDF functionalities easily with our powerful SDK and clear documentation and guides with few lines of code.
-
+  
 * **Fully Customizable UI:** Design a unique interface for your products with fully customizable UI source code by a high-performing SDK.
-
-* **[Comprehensive PDF Features:](https://www.compdf.com/pdf-sdk/features-list?utm_source=github_readme_sdk_android&utm_medium=referral&utm_campaign=github_readme_sdk_android)** Supports generation, viewing, annotation, page editing, content editing, conversion, OCR, redaction, signing, forms, parsing, measurement, compression, comparison, color separation, batch processing, and more.
-
+  
+* **[Comprehensive PDF Features:](https://www.compdf.com/pdf-sdk/features-list?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit)** Supports PDF generation, viewing, annotation, page editing, content editing, conversion, OCR, redaction, signing, forms, parsing, measurement, compression, comparison, color separation, batch processing, and more.
+  
 * **Faster Time-to-Market:** Comprehensive SDK libraries save your time and expenses and roll out your applications and projects.
-
+  
 * **High-quality Service:** We provide 24/7 professional one-to-one technical support, including onsite service and remote assistance via phone and email.
-
-****
+  
 
 ## Table of Contents
 
-- [Related](#Related)
-- [Get Started for Windows](#Get Started for Windows)
-- [Get Started for Linux](#Get Started for Linux)
-- [Get Started for macOS](#Get Started for macOS)
-- [Support](#support)
-- [Free Trial & License](#free-trial)
-- [Changelog](#changelog)
-  
-  
+* [Related](#related)
+* [Get Started for Windows](#get-started-for-windows)
+* [Get Started for Linux](#get-started-for-linux)
+* [Get Started for macOS](#get-started-for-macos)
+* [Support](#support)
+* [Free Trial and License](#free-trial-and-license)
+* [Changelog](#changelog)
 
 ## Related
 
 * [ComPDF API Library for .Net](https://github.com/ComPDFKit/compdfkit-api-.net)
 * Download [ComPDF SDK for .NET Core](https://www.nuget.org/packages/ComPDFKit.NetCore) in Nuget
-* [How to Build a Windows PDF Viewer or Editor](https://www.compdf.com/blog/build-a-windows-pdf-viewer-or-editor?utm_source=github_readme_sdk_netcore&utm_medium=referral&utm_campaign=github_readme_sdk_netcore)
-* [Brief Introduction to ComPDF for Windows](https://www.compdf.com/blog/compdfkit-for-windows?utm_source=github_readme_sdk_netcore&utm_medium=referral&utm_campaign=github_readme_sdk_netcore)
-
-****
+* [How to Build a Windows PDF Viewer or Editor](https://www.compdf.com/blog/build-a-windows-pdf-viewer-or-editor?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit)
+* [Brief Introduction to ComPDF for Windows](https://www.compdf.com/blog/compdfkit-for-windows?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit)
 
 ## Get Started for Windows
 
 ### Requirements
 
-- Visual Studio
-  Make sure that the `.NET Core cross-platform development` workload and `MSBUILD` are part of your installation.
-  This guide will use Visual Studio 2022. If you would like to use the NuGet integration for Windows x64 please make sure you have Visual Studio 2017 or later.
-  **Note:** ComPDF SDK is multi-targeting. Target Frameworks: .NET Core 2.1+, .NET Standard 2.0, .NET 5, .NET 6, .NET 7, .NET 8.
+* Visual StudioMake sure that the `.NET Core cross-platform development` workload and `MSBUILD` are part of your installation.This guide will use Visual Studio 2022. If you would like to use the NuGet integration for Windows x64 please make sure you have Visual Studio 2017 or later.**Note:** ComPDF SDK is multi-targeting. Target Frameworks: .NET Core 2.1+, .NET Standard 2.0, .NET 5, .NET 6, .NET 7, .NET 8.
+  
+* ComPDF SDK's .NET Core PDF Library for Windows:Please [contact us]( https://www.compdf.com/contact-sales?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit ) to get the ComPDF SDK for .NET Core.
+  
+* ComPDF SDK licenseCommercial license keys are required for use in production environments. If you do not have a valid license key, please [contact us]( https://www.compdf.com/contact-sales?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit) to obtain the license key.License keys are uniquely generated. Please make sure that it is not publicly available (e.g. in your public GitHub).
 
-- ComPDF SDK's .NET Core PDF Library for Windows:
-  Please [contact us]( https://www.compdf.com/contact-sales?utm_source=github_readme_sdk_netcore&utm_medium=referral&utm_campaign=github_readme_sdk_netcore ) to get the ComPDF SDK for .NET Core.
 
-- ComPDF SDK license
-  Commercial license keys are required for use in production environments. If you do not have a valid license key, please [contact us]( https://www.compdf.com/contact-sales?utm_source=github_readme_sdk_netcore&utm_medium=referral&utm_campaign=github_readme_sdk_netcore) to obtain the license key.
-  License keys are uniquely generated. Please make sure that it is not publicly available (e.g. in your public GitHub).
+
+
 
 ### Run the Samples
 
@@ -157,7 +150,7 @@ After running the program, please check the output file generated by the program
   Please [contact us ](https://www.compdf.com/contact-sales?utm_source=github_readme_sdk_netcore&utm_medium=referral&utm_campaign=github_readme_sdk_netcore )to obtain the ComPDF SDK for NET Core.
 
 - ComPDF SDK license
-  Commercial license keys are required for use in production environments. If you do not have a valid license key, please [contact us]( https://www.compdf.com/contact-sales?utm_source=github_readme_sdk_netcore&utm_medium=referral&utm_campaign=github_readme_sdk_netcore) to obtain the license key.
+  Please [contact us ](https://www.compdf.com/contact-sales?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit )to obtain the ComPDF SDK for NET Core.
   License keys are uniquely generated. Please make sure that it is not publicly available (e.g. in your public GitHub).
 
 ### Run the Samples
@@ -298,10 +291,10 @@ Now you will find the 'new_file. pdf' file in the program output directory, whic
   **Note:** ComPDF SDK is multi-targeting. Target Frameworks : .NET Core 2.1+, .NET Standard 2.0, .NET 5, .NET 6, .NET 7, .NET 8。
 
 - ComPDF's .NET Core PDF Library for macOS:
-  Please [contact us ](https://www.compdf.com/contact-sales?utm_source=github_readme_sdk_netcore&utm_medium=referral&utm_campaign=github_readme_sdk_netcore )to obtain the ComPDF SDK for NET Core.
+  Please [contact us ](https://www.compdf.com/contact-sales?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit )to obtain the ComPDF SDK for NET Core.
 
 - ComPDF SDK license
-  Commercial license keys are required for use in production environments. If you do not have a valid license key, please [contact us]( https://www.compdf.com/contact-sales?utm_source=github_readme_sdk_netcore&utm_medium=referral&utm_campaign=github_readme_sdk_netcore) to obtain the license key.
+  Commercial license keys are required for use in production environments. If you do not have a valid license key, please [contact us]( https://www.compdf.com/contact-sales?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit) to obtain the license key.
   License keys are uniquely generated. Please make sure that it is not publicly available (e.g. in your public GitHub).
 
 ### Run the Samples
@@ -436,28 +429,29 @@ You will now find the `new_file.pdf` file in the program output directory, which
 
 ## Support
 
-[ComPDF]((https://www.compdf.com?utm_source=github_readme_sdk_netcore&utm_medium=referral&utm_campaign=github_readme_sdk_netcore)) has a professional R&D team that produces comprehensive technical documentation and guides to help developers. Also, you can get an immediate response when reporting your problems to our support team.
+[ComPDF]((https://www.compdf.com?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit)) has a professional R&D team that produces comprehensive technical documentation and guides to help developers. Also, you can get an immediate response when reporting your problems to our support team.
 
-- For detailed information, please visit our [Guides](https://www.compdf.com/guides/pdf-sdk/windows/overview?utm_source=github_readme_sdk_netcore&utm_medium=referral&utm_campaign=github_readme_sdk_netcore) page.
+* For detailed information, please visit our [Guides](https://www.compdf.com/guides/pdf-sdk/windows/overview?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit) page.
+  
+* For technical assistance, please reach out to our [Technical Support](https://www.compdf.com/support?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit).
+  
+* To get more details and an accurate quote, please contact our [Sales Team](https://compdf.com/contact-us?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit).
+  
 
-- For technical assistance, please reach out to our [Technical Support](https://www.compdf.com/support?utm_source=github_readme_sdk_netcore&utm_medium=referral&utm_campaign=github_readme_sdk_netcore).
+## Free Trial and License
 
-- To get more details and an accurate quote, please contact our [Sales Team](https://compdf.com/contact-us?utm_source=github_readme_sdk_netcore&utm_medium=referral&utm_campaign=github_readme_sdk_netcore).
-
-## Free Trial & License
-
-[ComPDF SDK](https://www.compdf.com/?utm_source=github_readme_sdk_apple_package&utm_medium=referral&utm_campaign=github_readme_sdk_apple_package) offers a **30-day free trial** so you can evaluate core PDF capabilities in your own application.
+[ComPDF SDK](https://www.compdf.com/?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit) offers a **30-day free trial** so you can evaluate core PDF capabilities in your own application.
 
 To get started:
 
-1. Apply for a [free trial](https://www.compdf.com/pricing?utm_source=github_readme_sdk_apple_package&utm_medium=referral&utm_campaign=github_readme_sdk_apple_package)
+1. Apply for a [free trial](https://www.compdf.com/pricing?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit)
 2. Review supported trial features and licensing details
-3. Follow the integration and license steps above to activate the SDK in your project
+3. Follow the integration guides above and [license steps](https://www.compdf.com/guides/pdf-sdk/dotnet-core/apply-the-license-key?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit) to activate the SDK in your project
 
-For custom deployments, advanced features, or volume licensing, please [contact our sales team](https://www.compdf.com/contact-sales?utm_source=github_readme_sdk_apple_package&utm_medium=referral&utm_campaign=github_readme_sdk_apple_package)
+For custom deployments, advanced features, or volume licensing, please [contact our sales team](https://www.compdf.com/contact-sales?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit)
 
 ## Changelog
 
-Stay updated with the latest improvements through our [Changelog](https://www.compdf.com/pdf-sdk/changelog-windows?utm_source=github_readme_sdk_netcore&utm_medium=referral&utm_campaign=github_readme_sdk_netcore).
+Stay updated with the latest improvements through our [Changelog](https://www.compdf.com/pdf-sdk/changelog-windows?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit).
 
 
