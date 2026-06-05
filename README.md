@@ -2,7 +2,7 @@
 
 As part of the KDAN ecosystem, ComPDF SDK for .NET Core offers comprehensive functions for quickly generating, viewing, annotating, editing, signing PDFs, and more. It is feature-rich and battle-tested, making PDF files process and manipulation easier and faster.
 
-If you find this library helpful, please consider giving us a ⭐ **Star** on GitHub! Have feedback or questions? Join the conversation in our [Discussions](https://github.com/orgs/ComPDFKit/discussions).
+> If you find ComPDF SDK useful, please consider giving us a ⭐ **Star** on GitHub — it helps us grow and improve! Got questions or ideas? Join the conversation in our [Discussions](https://github.com/orgs/ComPDFKit/discussions).
 
 **Why ComPDF SDK for .NET Core?**
 
@@ -18,21 +18,111 @@ If you find this library helpful, please consider giving us a ⭐ **Star** on Gi
   
 
 ## Table of Contents
+- [Supported Features](#supported-features)
+- [Get Started for Windows](#get-started-for-windows)
+- [Get Started for Linux](#get-started-for-linux)
+- [Get Started for macOS](#get-started-for-macos)
+- [Free Trial and License](#free-trial-and-license)
+- [Support](#support)
+- [Changelog](#changelog)
+- [Related](#related)
 
-* [Related](#related)
-* [Get Started for Windows](#get-started-for-windows)
-* [Get Started for Linux](#get-started-for-linux)
-* [Get Started for macOS](#get-started-for-macos)
-* [Support](#support)
-* [Free Trial and License](#free-trial-and-license)
-* [Changelog](#changelog)
 
-## Related
+## Supported Features
 
-* [ComPDF API Library for .Net](https://github.com/ComPDFKit/compdfkit-api-.net)
-* Download [ComPDF SDK for .NET Core](https://www.nuget.org/packages/ComPDFKit.NetCore) in Nuget
-* [How to Build a Windows PDF Viewer or Editor](https://www.compdf.com/blog/build-a-windows-pdf-viewer-or-editor?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit)
-* [Brief Introduction to ComPDF for Windows](https://www.compdf.com/blog/compdfkit-for-windows?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit)
+* **PDF Generation**: 
+  
+  * Generates PDFs from HTML  
+  
+  * Provides PDF creation through APIs 
+  
+  * Supports a wide range of HTML and CSS tags  
+  
+  * Dynamic table generation 
+  
+  * Text reflow
+
+* **Annotations**:
+  
+  * Notes - add longer comments with adjustable icon shape and color
+  
+  * Ink - freehand drawing with customizable color, opacity, line thickness
+  
+  * Text - add, move, resize text directly on page
+  
+  * Inspector - adjust annotation looks (line styles, borders, colors, opacity, font)
+  
+  * Comment on Annotations and Update Status
+  
+  * Import & Export & Flatten Annotations (XFDF, FDF, JSON)
+  
+  * Highlight, Underline, Strikeout, Squiggly
+  
+  * Shapes - Rectangle, Oval, Line, Arrow, Polygon, Polyline, Cloud
+  
+  * Stamps, Sound, Movie, File Attachment, Link, Distance, Perimeter, Area
+
+* **Forms**:
+  
+  * Process fillable and static PDF forms
+  
+  * Form filling, form creation, form flattening
+
+* **Document Editor**:
+  
+  * Page manipulation - insert, delete, rotate, reorder, extract, crop
+  
+  * Split PDF, Merge PDF
+
+* **Content Editor**: Edit PDF text and images directly like in Word
+
+* **Security**:
+  
+  * Encryption - set open password, permission password
+  
+  * Restrict printing, copying, editing
+
+* **Signatures**:
+  
+  * Electronic Signatures - draw, type, image signatures
+  
+  * Digital Signatures - certificate-based signature validation
+
+* **OCR:**
+  
+  * AI OCR
+  
+  * Recognize Tables, Graphics, Images
+  
+  * Support recognition in 80+ Languages
+
+* **Watermark:**
+  
+  * Add Text or Image Watermarks
+  
+  * Delete Watermarks
+  
+  * Customize Watermarks
+
+* **Compare Documents**: Side-by-side document comparison to highlight differences
+
+* **Redaction**: Permanently remove sensitive content from PDFs
+
+* **Measurement**: Distance, area, perimeter measurement tools
+
+* **Compress**: Optimize and reduce PDF file size
+
+* **PDF/A, PDF/X, PDF/E, PDF/UA**: Standards compliance for archiving, printing, engineering, and accessibility
+
+* **Batch Document Processing:** Provides server-side batch document processing, including PDF editing, conversion, and generation.
+
+* **Convert Files**:
+  
+  * Convert PDF to Word, Excel, PPT, HTML, CSV, images (PNG,JPEG, JPEG, JPEG2000, BMP, TIFF, TGA, GIF), RTF, TXT, JSON, XML, markdown, searchable PDF, searchable OFD.
+  
+  * Convert images (PNG,JPEG, JPEG, JPEG2000, BMP, TIFF, TGA, GIF) to Word, Excel, PPT, HTML, CSV, RTF, TXT, JSON, XML.
+  
+  * Convert Word, Excel, PPT, HTML, CSV, PNG, RTF, TXT to PDF
 
 ## Get Started for Windows
 
@@ -43,9 +133,6 @@ If you find this library helpful, please consider giving us a ⭐ **Star** on Gi
 * ComPDF SDK's .NET Core PDF Library for Windows:Please [contact us]( https://www.compdf.com/contact-sales?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit ) to get the ComPDF SDK for .NET Core.
   
 * ComPDF SDK licenseCommercial license keys are required for use in production environments. If you do not have a valid license key, please [contact us]( https://www.compdf.com/contact-sales?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit) to obtain the license key.License keys are uniquely generated. Please make sure that it is not publicly available (e.g. in your public GitHub).
-
-
-
 
 
 ### Run the Samples
@@ -427,17 +514,6 @@ dotnet run
 
 You will now find the `new_file.pdf` file in the program output directory, which is a PDF file with a blank page.
 
-## Support
-
-[ComPDF]((https://www.compdf.com?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit)) has a professional R&D team that produces comprehensive technical documentation and guides to help developers. Also, you can get an immediate response when reporting your problems to our support team.
-
-* For detailed information, please visit our [Guides](https://www.compdf.com/guides/pdf-sdk/windows/overview?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit) page.
-  
-* For technical assistance, please reach out to our [Technical Support](https://www.compdf.com/support?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit).
-  
-* To get more details and an accurate quote, please contact our [Sales Team](https://compdf.com/contact-us?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit).
-  
-
 ## Free Trial and License
 
 [ComPDF SDK](https://www.compdf.com/?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit) offers a **30-day free trial** so you can evaluate core PDF capabilities in your own application.
@@ -450,8 +526,33 @@ To get started:
 
 For custom deployments, advanced features, or volume licensing, please [contact our sales team](https://www.compdf.com/contact-sales?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit)
 
+## Support
+
+[ComPDF]((https://www.compdf.com?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit)) has a professional R&D team that produces comprehensive technical documentation and guides to help developers. Also, you can get an immediate response when reporting your problems to our support team.
+
+* For detailed information, please visit our [Guides](https://www.compdf.com/guides/pdf-sdk/windows/overview?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit) page.
+  
+* For technical assistance, please reach out to our [Technical Support](https://www.compdf.com/support?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit).
+  
+* To get more details and an accurate quote, please contact our [Sales Team](https://compdf.com/contact-us?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit).
+  
+
 ## Changelog
 
 Stay updated with the latest improvements through our [Changelog](https://www.compdf.com/pdf-sdk/changelog-windows?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit).
 
+## Related
+
+* More Guides:
+  
+  - [API Reference for ComPDF SDK (.NET Core)](https://developers.compdf.com/guides/pdf-sdk/dotnet-core/api-reference/html/3a1f08b6-6ac4-f8b5-bad1-a31c98e96105.htm)
+  
+  - [ComPDF API Library for .Net](https://github.com/ComPDFKit/compdfkit-api-.net)
+  
+  - [ComPDF SDK for .NET Core](https://www.nuget.org/packages/ComPDFKit.NetCore) in Nuget
+  
+  - [How to Build a Windows PDF Viewer or Editor](https://www.compdf.com/blog/build-a-windows-pdf-viewer-or-editor?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit)
+  
+  - [Brief Introduction to ComPDF for Windows](https://www.compdf.com/blog/compdfkit-for-windows?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit)
+- ComPDF Cloud: We also provide Open API for developers. You can [register a free API account](https://api.compdf.com/signup?utm_source=github&utm_medium=compdfkit-pdf-sdk-netcore&utm_campaign=compdfkit_pdf_sdk_netcore_repo&ref_platform_id=github_compdfkit) to get up to 200+ API calls monthly for free.
 
