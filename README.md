@@ -2,7 +2,7 @@
 
 As part of the KDAN ecosystem, ComPDF SDK for .NET Core offers comprehensive functions for quickly generating, viewing, annotating, editing, signing PDFs, and more. It is feature-rich and battle-tested, making PDF files process and manipulation easier and faster.
 
-> If you find ComPDF SDK useful, please consider giving us a ⭐ **Star** on GitHub — it helps us grow and improve! Got questions or ideas? Join the conversation in our [Discussions](https://github.com/orgs/ComPDFKit/discussions).
+> If you find ComPDF SDK useful, please consider giving us a ⭐ **Star** on GitHub — it helps us grow and improve! Got questions or ideas? Join the conversation in our [Discussions](https://github.com/ComPDFKit/compdfkit-pdf-sdk-netcore/discussions).
 
 **Why ComPDF SDK for .NET Core?**
 
